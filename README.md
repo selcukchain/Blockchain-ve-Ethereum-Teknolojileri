@@ -72,17 +72,17 @@ Mustafa ERDOĞAN</br>
 ### 9. ETHEREUM GİRİŞ</br>
 9.1 Ethereum Tarihçesi</br>
 9.2 Ethereum Nedir?</br>
-9.3 Ethereum 2.0 Nedir?</br>
-9.3.1 ETH 2.0 Staking Nedir?</br>
-9.4 Ethereum Sanal Makinesi (EVM) </br>
-9.4.1 EVM Nasıl İşler</br>
-9.4.2 Merkezi Olmayan Uygulamalar (DApps)</br>
-9.4.3 Akıllı Sözleşmeler </br>
-9.4.4 ERC20 – ERC721 Protokolleri</br>
-9.4.5 Ethereum Hesap Türleri</br>
-9.4.6 MetaMask Cüzdanı Nedir?</br>
-9.4.7 Solidity Nedir?</br>
-9.4.8 Ethereum İşlem Ücreti (GAS Fee)</br>
+9.3 Ethereum Sanal Makinesi (EVM) </br>
+9.3.1 EVM Nasıl İşler</br>
+9.3.2 Merkezi Olmayan Uygulamalar (DApps)</br>
+9.3.3 Akıllı Sözleşmeler </br>
+9.3.4 ERC20 – ERC721 Protokolleri</br>
+9.3.5 Ethereum Hesap Türleri</br>
+9.3.6 MetaMask Cüzdanı Nedir?</br>
+9.3.7 Solidity Nedir?</br>
+9.3.8 Ethereum İşlem Ücreti (GAS Fee)</br>
+9.4 Ethereum 2.0 Nedir?</br>
+9.4.1 ETH 2.0 Staking Nedir?</br>
 9.5 Ethereum ile Bitcoin Arasındaki Farklar</br>
 9.6 Ethereum, Bitcoin’e Rakip Olabilir Mi?</br>
 ### 10. SOLIDITY GİRİŞ</br>
