@@ -28,8 +28,8 @@ Mustafa ERDOĞAN</br>
 2.6 Peer To Peer ( Eşten Eşe - P2P ) Kavramı</br>
 2.7 Blockchain Teknolojisinin Felsefesi</br>
 ### 3. BLOCKCHAIN’E GİRİŞ</br>
-3.1 Blockchain’in Tarihçesi</br>
-3.2 Blockchain Nedir?</br>
+3.1 Blockchain Nedir?</br>
+3.2 Blockchain’in Tarihçesi</br>
 3.2.1 İşlemler (Transactions)</br>
 3.2.1.1 Dijital İmza</br>
 3.2.2 Dağıtılmış Defter Sistemi</br>
@@ -145,7 +145,15 @@ Mustafa ERDOĞAN</br>
 <p> Blockchain felsefesinin verdiği mesajı artık biliyoruz. Merkezi olmayan ama güvenli veri kayıt sistemlerini nasıl hayata geçirildiğini anlamak için temel kavramlar hakkında artık bir bilgiye sahibiz. Şimdi Blockchain’in çalışma süreçlerine geçiş yapabiliriz.</p>
 
 ## 3. BLOCKCHAIN’E GİRİŞ
-## 3.1 Blockchain’in Tarihçesi 
+### 3.1 Blockchain (Blok Zinciri) Nedir?
+<p> Herhangi bir merkez ya da otoriteye ihtiyaç duymadan, verilerin dağıtık ağ üzerinde saklandığı kayıt teknolojisine Blockchain ya da Blok Zinciri denir. İlk kripto para birimi olan Bitcoin ile hayatımıza giren Blockchain, eski verilerde düzenleme olanağı sunmaz. Dolayısıyla geleneksel veri tabanları gibi değil, işlemlerin ardı sıra listelendiği dijital bir kayıt defteri şeklinde çalışır.</p>
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/82549640/147282686-8025a75b-0c4f-4c1a-997f-a8f23c8a0e3f.png"></br> Şekil 5 - Blok Zinciri
+</p>
+<p> Blockchain de veriler bloklara giriş tarihine göre art arda sıralanır. Her blok içinde işlem bilgileri ve önceki blokun şifrelenmiş özet kodu (Hash) bulunur. Her blok, kendilerinden önceki bloğa şifreli biçimde bağlı olduğundan, herhangi birinde değişiklik yapılması, sonraki tüm bloklarda değişiklik meydana getirir. Bu sayede verilerin asla değiştirilmediğinden emin olunur. </p>
+<p> Burada Blockchain’i bir altyapı şeklinde düşünebiliriz. Sadece bahsetmek istediğim bir nokta da Bitcoin ve Blockchain’in tamamen farklı şeyler olmasıdır. Blockchain bir altyapı teknolojisi iken, Bitcoin bu altyapı üzerine uygulanmış bir finansal üründür. Yani Bitcoin bir üründür, Ethereum bir üründür ama bunların hepsi bir Blockchain sistemleri olup içlerinde farklılıklar göstermektedir. Blockchain, dağıtılmış defter teknolojisi (Distributed Ledger) ve şifreleme (Kriptoloji) ‘nin toplamı olarak düşünebiliriz.</p>
+
+## 3.2 Blockchain’in Tarihçesi 
 •	İlk günlerde;
 <p> Blockchain teknolojisinin ardındaki fikir, bilim adamları Stuart Haber ve W.Scott Stornetta’nın hesaplama açısından kullanışlı bir çözüm ile dijital belgelerin zaman damgası ile kurcalanamaz veya geriye dönük olarak değiştirilememesi şeklinde 1991 yılında tanımlanmıştır.</p>
 <p> Sistem, zaman damgalı belgelerin saklanması için kriptolanmış güvenli bir Blockchain’i kullanmış ve 1992 yılında Merkle ağaçları tasarıma dahil edilmesiyle birlikte birkaç belgenin bir blok halinde toplanması sağlanmış. Fakat bu teknoloji kullanılmamış ve patenti Bitcoin’in başlangıcından dört yıl önce, 2004 yılında sona ermiştir.</p>
@@ -155,14 +163,6 @@ Mustafa ERDOĞAN</br>
 <p> Bu fikir 2008 yılında tekrardan Satoshi Nakamoto isminde kimsenin tanımadığı, kimliği bilinmediği bir kişi tarafından ortaya atıldı.</p>
 <p> 2008’in ortasında bir email grubuna (CyperPunk) sekiz sayfalık bir “White Paper” gönderiyor ve bu yazısında mevcut bankacılık sisteminde bazı hataların olduğunu söylüyor. Bu problemleri ben şu şekilde çözerim diyerek bazı teşhisler koyarak çözüm önerilerini belirtiyor.</p>
 <p> Bunun sonrasından Satoshi, 2009’un başında ilk Bitcoin’i canlıya alıyor. Bitcoin canlıya alınması ile beraber insanlar sisteme kodlar yazarak, forumlarda veya mail gruplarında tartışmaya başlıyorlar. Bu tartışmalar günümüzde halen devam eden “Bitcoin balon mu?” sorusu üzerinden ilerliyor. O dönemde projeye inanmayan insanlara günümüzde Bitcoin fiyatını gösterirsek, dönemin “balon?” diyenlerine bir cevap niteliği taşıyor.</p>
-
-### 3.2 Blockchain (Blok Zinciri) Nedir?
-<p> Herhangi bir merkez ya da otoriteye ihtiyaç duymadan, verilerin dağıtık ağ üzerinde saklandığı kayıt teknolojisine Blockchain ya da Blok Zinciri denir. İlk kripto para birimi olan Bitcoin ile hayatımıza giren Blockchain, eski verilerde düzenleme olanağı sunmaz. Dolayısıyla geleneksel veri tabanları gibi değil, işlemlerin ardı sıra listelendiği dijital bir kayıt defteri şeklinde çalışır.</p>
-<p align="center"> 
-<img src="https://user-images.githubusercontent.com/82549640/147282686-8025a75b-0c4f-4c1a-997f-a8f23c8a0e3f.png"></br> Şekil 5 - Blok Zinciri
-</p>
-<p> Blockchain de veriler bloklara giriş tarihine göre art arda sıralanır. Her blok içinde işlem bilgileri ve önceki blokun şifrelenmiş özet kodu (Hash) bulunur. Her blok, kendilerinden önceki bloğa şifreli biçimde bağlı olduğundan, herhangi birinde değişiklik yapılması, sonraki tüm bloklarda değişiklik meydana getirir. Bu sayede verilerin asla değiştirilmediğinden emin olunur. </p>
-<p> Burada Blockchain’i bir altyapı şeklinde düşünebiliriz. Sadece bahsetmek istediğim bir nokta da Bitcoin ve Blockchain’in tamamen farklı şeyler olmasıdır. Blockchain bir altyapı teknolojisi iken, Bitcoin bu altyapı üzerine uygulanmış bir finansal üründür. Yani Bitcoin bir üründür, Ethereum bir üründür ama bunların hepsi bir Blockchain sistemleri olup içlerinde farklılıklar göstermektedir. Blockchain, dağıtılmış defter teknolojisi (Distributed Ledger) ve şifreleme (Kriptoloji) ‘nin toplamı olarak düşünebiliriz.</p>
 
 ### 3.2.1 Transactions (İşlemler)
 <p> Transaction(işlem), kripto para biriminin değerinin, blok zincir ağında bir varlıktan diğerine taşınması işlemine verilen isimdir. </p>
