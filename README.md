@@ -464,20 +464,7 @@ Mustafa ERDOĞAN</br>
 <p> Yani şuandaki interneti nasıl kullanıyoruz? Örneğin ben Türk Telekom üzerinden internete çıkıyorum. Daha sonra facebook.com a tıklayarak Facebook’a bağlanıyorum. Etheruem da facebook.com a bağlanmak yerine başka bir bilgisayara bağlanıyorum ve bu bilgisayarlar dünyanın her yerinde.</p>
 <p> Etheruem ağında verilerimiz herkeste saklanıyor. Bilgisayarımıza bir uygulama kurduğumuz zaman bu uygulama dünyanın her yerine aynı anda kuruluyor. Ve ben bu uygulamayı çalıştırdığım zaman dünyadaki tüm bilgisayarlarda değil ama dünyadaki tüm bilgisayarların birinde çalışıyor. Ben uygulamamı kimin çalıştırdığını bilmiyorum, çalıştıran kişi de benim onu çalıştırdığımı bilmiyor. Aslında Etheruem böyle bir şey.</p>
 
-### 9.3 Ethereum 2.0 Nedir? 
-<p> Ethereum yeni finansal sistemin bel kemiği olmayı hedefliyorsa saniye başına işlem sayısı çok daha yüksek olmalıdır. Ağın dağıtılmış doğası göz önüne alındığında bu çözülmesi oldukça zor bir sorundur ve Ethereum geliştiricileri yıllardır çözüm üzerine kafa yormaktadır.</p>
-<p> Öncelikle ağı yeterli seviyede merkeziyetsiz şekilde tutmak için limitlerin uygulanması gerekir. Bir node olarak çalışmanın gereklilikleri ne kadar yüksek olursa ağ da o kadar merkezi hale gelir. Yani Ethereum’un işlem kapasitesini artırması Node’ların üzerindeki yükü de artıracağından sistemin bütünlüğüne zarar verebilir. Ethereum 2.0 ile ağın hızı ve ölçeklenebilirliği daha üst seviyeye taşınacaktır.</p>
-<p> Ethereum’a ve diğer Proof of Work (PoW) kripto paralara yönelik bir diğer eleştiri de son derece yüksek seviyelerde kaynak gerektiriyor olmalarıdır. Bir bloğun Blockchain‘e başarıyla eklenebilmesi için madencilik kullanılır. Fakat bloğun bu şekilde yaratılması için çok fazla elektrik tüketen hesaplamaların hızla yapılması gerekir.</p>
-<p> Yukarıdaki bahsettiğimiz eksiklere yönelik genel olarak Ethereum 2.0 olarak bilinen bir grup önemli yükseltme önerilmiştir. Tam olarak uygulamaya konduğunda ETH 2.0 ile enerji tasarrufu, ağın performansını büyük oranda yükseltilmesi hedefleniyor.</p>
-
-### 9.3.1 ETH 2.0 Staking Nedir? 
-<p> Ethereum 2.0 ile gelecek en büyük yenilik, Proof of Work (İş İspatı) konsensüs algoritmasıyla çalışan ağın, Proof of Stake (Hisse İspatı) algoritmasına geçmesi olacaktır.</p>
-•	Stake Etmek (Staking): Ağ katılımcısının sahip olduğu kripto parayı sisteme kilitlemesi karşılığında gelir elde ettiği modele denir.
-
-<p> Proof of Stake Consensus algoritmasıyla çalışan Ethereum 2.0 ağına katılmak ve blok ödülü elde etmek için Ether (ETH) kilitleme işlemine “ETH 2.0 Staking” denir.
-Ethereum tarafından yapılan resmi açıklamada, sisteme en az 32 ETH kilitleyen her kullanıcı Ethereum 2.0 ağında onaylayıcı (validator) olabileceğini açıkladı.</p>
-
-### 9.4 Ethereum Sanal Makinesi (EVM)
+### 9.3 Ethereum Sanal Makinesi (EVM)
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/82549640/147287832-1e9edee8-bee4-4b97-aa8c-e2d93b9628bf.png"></br> Şekil 30 - Ethereum Sanal Makinesinin Görevi
 </p>
@@ -485,14 +472,14 @@ Ethereum tarafından yapılan resmi açıklamada, sisteme en az 32 ETH kilitleye
 <p> Ethereum’un temel yeniliği olan Ethereum Sanal Makinesi (EVM), Ethereum ağı üzerinde çalışan Turing komple bir yazılımdır. Programlama dili ne olursa olsun, yeterli zaman ve bellek verilen herkesin herhangi bir programı çalıştırmasına olanak tanır. Ethereum Sanal Makinesi, blok zinciri uygulamaları oluşturma işlemini her zamankinden çok daha kolay ve verimli hale getirir.</p>
 <p> Ethereum, her yeni uygulama için tamamen orijinal bir blok zincir oluşturmak yerine, tek bir platformda binlerce farklı uygulamanın gelişimini mümkün kılar.</p>
 
-### 9.4.1 EVM Nasıl İşler?
+### 9.3.1 EVM Nasıl İşler?
 
 <p> Ağdaki her Ethereum düğümü kendi EVM uygulamasını çalıştırır ve aynı talimatları uygulayabilir.</p>
 <p> Ethereum ağı programlama dili olan Solidity dili ile uygulamalı bir yaklaşım edinmek isteyen deneyimli kodlayıcılar için uygun akıllı sözleşmeler yapmak için bir geçit görevi görür. EVM kodlamak oldukça karmaşık olmakla birlikte, geliştiriciler Serpent ve Solidity’de akıllı sözleşmeler yazabilme sayesinde bunu okunabilir hale getirebilirler. Ayrıca EVM, Python, Ruby, C++ ve diğer birkaç kodlama dilinde de çalışabilir.</p>
 <p> EVM, akıllı sözleşmelerin yürütülmesinde ve bakımından sorumludur. Akıllı sözleşmelerin yapıldığı yerdir. Akıllı sözleşmeleri ve algoritmayı yürüttüğü için, kullanıcıların çifte harcama yapmasını önler ve böylece işlemler yapıldıktan sonra, işlemlerin kopyaları ağdaki binlerce düğüme yayılır ve kaydedilir. Böylece çifte harcamanın esasen var olmadığından emin olur.</p>
 <p> Ayrıca DDoS saldırılarından platformu korur, güvenlik duvarlarını korur, hataları ortadan kaldırır ve güvenlik önlemlerini güçlendirir.</p>
 
-### 9.4.2 Merkezi Olmayan Uygulamalar (DApps)
+### 9.3.2 Merkezi Olmayan Uygulamalar (DApps)
 <p> Merkezi olmayan uygulamaları basitçe tanımlamak gerekirse bir blok zincir ağında ya da P2P bilgisayar ağında çalışan programlardır. Başka bir söylem ile Blockchain teknolojisinden faydalanan açık kaynaklı yazılımlar, DApps olarak bilinir.</p>
 <p> Dağılmış bir sistem üzerinde çalışan bir protokoldür. Merkezi platformların aksine yapılan işlemlerin hiç birisine üçüncü taraflar dahil olamamaktadır. Bu yüzden verilerinizi ele geçirerek ve internet üzerinden uygulamalara kimliksiz erişim sağlayarak veri sahipliği ve gizlilik sorunlarını çözer. Merkezi olmayan platformlarda bir aracı olmaması nedeniyle eşler arası (P2P) ağı olarak da adlandırılabilir.</p>
 <p> Artık DApp’ın ne olduğunu bildiğinize göre, bir DApp’ı yargılayabileceğiniz kriterlere bakalım;</p>
@@ -501,7 +488,7 @@ Ethereum tarafından yapılan resmi açıklamada, sisteme en az 32 ETH kilitleye
 3)	Teşvikler: Blok zinciri doğrulayıcılarının, onları kriptografi tokenlar ile ödüllendirerek teşvik etmesi gerekir.</br>
 4)	Algoritma: Merkezi olmayan uygulama topluluğu, temelde değerin kanıtını göstermek için bir kriptografik algoritma üzerinde anlaşmalıdır.</br>
 
-### 9.4.3 Akıllı Sözleşmeler (Smart Contract)
+### 9.3.3 Akıllı Sözleşmeler (Smart Contract)
 <p> Akıllı kontrat yalnızca bir koddu. Kod akıllı ya da bildiğimiz şekilde bir kontrat değildir. Fakat koda belli başlı koşullar altında kendi kendini uygulamaya koyduğu için akıllı denir ve partiler arasındaki anlaşmaların yerine getirilmesini sağladığı için de bir anlamda kontrattır.</p>
 <p> Bilgisayar bilimcisi Nick Szabo bu fikri 1990’ların sonunda ortaya atmıştır. Kavramı açıklamak için bir otomat örneğini kullanmış ve otomatların modern akıllı kontratların öncülü olarak değerlendirebileceğini belirtmiştir. Otomat örneğinde uygulamakta olan basit bir kontrat söz konusudur. Kullanıcı makinaya bozuk para atar ve makine de kullanıcıya istediği ürünü verir. Bir akıllı kontrat da aynı mantığı dijital koşullarda uygular. Koda, “Bu kontrata iki Ether gönderildiğinde ‘Bitirme Projesi Ödevi’ yanıtını gönder” gibi basit bir şart girilebilir.</p>
 <p> Ethereum ’da geliştirici bu girdiyi daha sonra EVM tarafından okunabilecek şekilde kodlar. Ardından bu kodu, kontratı uygulamaya koyan özel adrese göndererek yayınlar. Bu noktada kontrat herkes tarafından kullanılabilir hale gelir. Ayrıca geliştirici kodu yazarken özel bir koşul belirmediği sürece kontrat silinemez.</p>
@@ -525,7 +512,7 @@ Akıllı Sözleşmelerin Bileşenleri;
 •	Amount</br>
 <p> Bir kontrat kendi içinde para tutabilir. Amount, sözleşmenin üzerinde sahip olunan paranın miktarını gösterir. Yani benim 100 Ether’im var diyelim. Ben bir kontrata 50 Ether gönderebiliyorum ve o kontratta güvenli bir şekilde durabiliyor kimse o parayı çalamıyor. Tabi eğer bunun için kontratın içerisine kod yazılmazsa.</p>
 
-### 9.4.4 ERC20 – ERC721 Token Protokolleri
+### 9.3.4 ERC20 – ERC721 Token Protokolleri
 •	ERC20 Protokolü</br>
 <p> Bitcoin (BTC), Cardano (ADA), Polkadot (DOT) gibi bağımsız kripto para birimlerinin kendi Blockchain ağları bulunurken, ERC-20 standardını benimseyen Token’ların kendilerine özel zincirleri yoktur; daima Ethereum Blockchain ağı üzerinden çalışırlar.</p>
 <p> ERC-20 Token’larına ait transfer işlemleri, muhasebe defteri mantığı ile tutulmaz. Bu tokenlar, Ethereum Blockchain ağı üzerinde çalışan akıllı sözleşmelerde geçerler. Yani kullanıcılar, sahip oldukları ERC-20 standardına sahip Token’ları başka bir kullanıcıya göndermek istediklerinde, bu işlem talebini içeren kod satırı, akıllı sözleşmedeki diğer işlemlerin arasına eklenir.</p>
@@ -534,7 +521,7 @@ Akıllı Sözleşmelerin Bileşenleri;
 <p> ERC-721, Ethereum Blockchain’i üzerinde eşsiz Token’ların nasıl yaratılacağını açıklayan bir standarttır. ERC-20 standardı ile oluşturulan Token’ların aksine ERC-721 ile oluşturulan Token’ların her biri eşsizdir.</p>
 <p> Birbirinden farklı olan bu Token’lar aynı zamanda birbiri ile aynı değere de sahip değildir. Bu token tiplerini sanat eserleri olarak değerlendirebiliriz. Hiçbir sanat eseri, tablo ya da müzik tamamen birbiri ile aynı olamayacağı gibi bu Token’lar de birbirinden farklıdır. Bu sebeple takası ve değişimi ERC-20 Token’ları gibi gerçekleşmemektedir.</p>
 
-### 9.4.5 Ethereum Hesap Türleri
+### 9.3.5 Ethereum Hesap Türleri
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/82549640/147288805-d01cc197-7abc-4670-b7d6-3f259e0e0c8b.png"></br> Şekil 32 - Ethereum Hesap Türleri-1
 </p>
@@ -559,12 +546,12 @@ Akıllı Sözleşmelerin Bileşenleri;
 </p>
 <p>Şekil 35’de ise hesaptan kontrata Transaction işleminin örnek dokümanını görebiliyoruz.</p>
 
-### 9.4.6 MetaMask Cüzdanı Nedir?
+### 9.3.6 MetaMask Cüzdanı Nedir?
 <p> MetaMask, Ethereum tabanlı her tür token destekleyen (örneğin ERC-20 standartlarını kullananları ya da eşsiz tokenları(ERC-721 vb.)) açık kaynaklı bir Ethereum cüzdanıdır. Buna ek olarak, başka kişilerden token alabilir ya da dahili Coinbase ve ShapeShift entegrasyonlarıyla token satın alabilir/takas edebilirsiniz.</p>
 <p> MetaMask'ı bu kadar ilginç kılan unsur web siteleriyle ara yüz kurabilmesidir. Diğer cüzdanlarla ödeme adreslerini kopyalayıp yapıştırmanız ya da bir QR kodu farklı bir cihazda taratmanız gerekir. MetaMask uzantısıyla ise, web sitesi cüzdanınıza bir ping atar ve size işlemi kabul etme ya da etmeme seçeneği sunulur.</p>
 <p> MetaMask, standart bir kripto cüzdanı olarak hizmet edebilir ama gerçek gücü akıllı kontratlarla ve merkeziyetsiz uygulamalarla sorunsuz bir şekilde ara yüz kurabilmesidir.</p>
 
-### 9.4.7 Solidity Nedir?
+### 9.3.7 Solidity Nedir?
 <p>Solidity, esas olarak Ethereum blok zinciri için kullanılan yüksek seviyeli nesne 
 yönelimli bir programlama dilidir. Solidity, karmaşık otomatik işlevleri etkinleştiren 
 kendi kendini yürüten kodlar olan akıllı sözleşmeler yazmak için harika bir araçtır.
@@ -595,7 +582,7 @@ tasarımının günümüz gereksinimlerine ayak uydurabilmesi için güncellemel
 gerekmektedir.
 </p>
 
-### 9.4.8 Ethereum İşlem Ücreti (GAS Fee)
+### 9.3.8 Ethereum İşlem Ücreti (GAS Fee)
 <p> EVM aracılığı ile Ethereum ağında yazdığımız program kişinin yalnızca kendi kişisel bilgisayarında çalıştırılmaz, Ethereum ekosistemindeki herkesten de programı çalıştırması istenir.</p>
 <p> Bu durumda şu soru ortaya çıkar: on binlerce kişi sofistike kontratları çalıştırdığında ne olur? Eğer bir kişi kontratını aynı kodu tekrar edecek şekilde düzenlerse her bir Node 'un bunu sonsuz kez çalıştırması gerekir. Bu durum kaynaklar üzerinde büyük bir yük yaratır ve muhtemelen en nihayetinde sistem çöker.</p>
 <p> Ethereum bu riski ortadan kaldırmak için GAS kavramını ortaya sürmüştür. Arabanızın benzin olmadan çalışamaması gibi kontratlar da GAS olmadan uygulamaya konamaz. Kullanıcıların kontratları başarıyla çalıştırabilmesi için belirli bir GAS ödemesi yapması gerekir. Eğer yeteri kadar GAS yoksa, kontrat çalışmayı bırakır.</p>
@@ -608,6 +595,19 @@ gerekmektedir.
 <img src="https://user-images.githubusercontent.com/82549640/147289545-dab2becb-815d-470f-b4fd-cd9cb29a1ba3.png"></br> Şekil 37 - GAS Örneği -2
 </p>
 <p>Burada kırmızı alanda gördüğümüz değerler aslında siz daha Transaction yaratırken koyduğunuz paradır. Madenciler sizin bu kodunuz üzerinde çalışmaya başladığında yani kontratınızı deploy edip Etheruem ağına dağıttınız da bu Gas ücreti sizden çekilir.</p>
+
+### 9.4 Ethereum 2.0 Nedir? 
+<p> Ethereum yeni finansal sistemin bel kemiği olmayı hedefliyorsa saniye başına işlem sayısı çok daha yüksek olmalıdır. Ağın dağıtılmış doğası göz önüne alındığında bu çözülmesi oldukça zor bir sorundur ve Ethereum geliştiricileri yıllardır çözüm üzerine kafa yormaktadır.</p>
+<p> Öncelikle ağı yeterli seviyede merkeziyetsiz şekilde tutmak için limitlerin uygulanması gerekir. Bir node olarak çalışmanın gereklilikleri ne kadar yüksek olursa ağ da o kadar merkezi hale gelir. Yani Ethereum’un işlem kapasitesini artırması Node’ların üzerindeki yükü de artıracağından sistemin bütünlüğüne zarar verebilir. Ethereum 2.0 ile ağın hızı ve ölçeklenebilirliği daha üst seviyeye taşınacaktır.</p>
+<p> Ethereum’a ve diğer Proof of Work (PoW) kripto paralara yönelik bir diğer eleştiri de son derece yüksek seviyelerde kaynak gerektiriyor olmalarıdır. Bir bloğun Blockchain‘e başarıyla eklenebilmesi için madencilik kullanılır. Fakat bloğun bu şekilde yaratılması için çok fazla elektrik tüketen hesaplamaların hızla yapılması gerekir.</p>
+<p> Yukarıdaki bahsettiğimiz eksiklere yönelik genel olarak Ethereum 2.0 olarak bilinen bir grup önemli yükseltme önerilmiştir. Tam olarak uygulamaya konduğunda ETH 2.0 ile enerji tasarrufu, ağın performansını büyük oranda yükseltilmesi hedefleniyor.</p>
+
+### 9.4.1 ETH 2.0 Staking Nedir? 
+<p> Ethereum 2.0 ile gelecek en büyük yenilik, Proof of Work (İş İspatı) konsensüs algoritmasıyla çalışan ağın, Proof of Stake (Hisse İspatı) algoritmasına geçmesi olacaktır.</p>
+•	Stake Etmek (Staking): Ağ katılımcısının sahip olduğu kripto parayı sisteme kilitlemesi karşılığında gelir elde ettiği modele denir.
+
+<p> Proof of Stake Consensus algoritmasıyla çalışan Ethereum 2.0 ağına katılmak ve blok ödülü elde etmek için Ether (ETH) kilitleme işlemine “ETH 2.0 Staking” denir.
+Ethereum tarafından yapılan resmi açıklamada, sisteme en az 32 ETH kilitleyen her kullanıcı Ethereum 2.0 ağında onaylayıcı (validator) olabileceğini açıkladı.</p>
 
 ### 9.5 Ethereum ve Bitcoin Arasındaki Farklar
 <p> Kripto para yatırımcıların en çok yatırım yaptığı ve teknolojileriyle finans dünyasını şekillendiren Bitcoin ve Ethereum arasındaki farklar nelerdir inceleyelim.</p>
